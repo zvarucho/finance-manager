@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Finance Manager</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Personal Finance Manager</h1>
+      <form id="add-category-form">
+        <input type="text" id="category-name-input" placeholder="Enter category name">
+        <button type="submit">Add</button>
+      </form>
+      <ul id="category-list"></ul>
+      <table id="transaction-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
