@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="add.css">
+    <title>Реєстрація/редагування інформації про категорію доходів/витрат</title>
+  </head>
+  <body>
+    <h1>Реєстрація/редагування інформації про категорію доходів/витрат</h1>
+    <form>
+      <label for="category-name">Назва категорії:</label>
+      <input type="text" id="category-name" name="category-name"><br><br>
+      <label for="category-description">Короткий опис:</label>
+      <input type="text" id="category-description" name="category-description"><br><br>
+      <button type="submit" id="save-button">Зберегти</button>
+      <button type="reset" id="clear-button">Очистити</button>
+    </form>
+    <br>
+    <input type="text" id="search-input" name="search-input" placeholder="Пошук"><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Назва</th>
+          <th>Опис</th>
+          <th>Управління</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Тут будуть додаватись рядки таблиці динамічно -->
+      </tbody>
+    </table>
+    <script src="add.js"></script>
+  </body>
+</html>

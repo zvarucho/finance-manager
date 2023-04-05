@@ -1,0 +1,77 @@
+/* Стилі для заголовка */
+h1 {
+    text-align: center;
+  }
+  
+  /* Стилі для форми */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+    cursor: pointer;
+  }
+  
+  #save-button {
+    background-color: green;
+    color: white;
+  }
+  
+  #clear-button {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Стилі для таблиці */
+  table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Стилі для поля пошуку */
+  #search-input {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+  }
+  
